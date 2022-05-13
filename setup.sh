@@ -5,7 +5,7 @@ if [[ $# == 1 ]]; then
   VPN_NAME=${1}
 else
   echo "VPN name is not set"
-  echo "Set your VPN name like \"bash setup.sh VPN_NAME\""
+  echo "Set your VPN name like \"bash setup.sh YOUR_VPN_NAME\""
   exit 0
 fi
 

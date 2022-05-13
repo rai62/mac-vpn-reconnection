@@ -14,5 +14,5 @@ if [[ $# == 1 ]]; then
 
 else
   echo "VPN name is not set"
-  echo "Set your VPN name like \"bash reconnect_vpn.sh VPN_NAME\""
+  echo "Set your VPN name like \"bash reconnect_vpn.sh YOUR_VPN_NAME\""
 fi
